@@ -1,0 +1,24 @@
+{
+	"name": "aliexpress-scrapper",
+	"version": "1.0.0",
+	"description": "Aliexpress.com scraper.",
+	"dependencies": {
+		"apify": "^0.16.0",
+		"axios": "^0.19.0",
+		"bluebird": "^3.7.1",
+		"cheerio": "^1.0.0-rc.3",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"https-proxy-agent": "^3.0.0",
+		"lodash": "^4.17.15",
+		"mysql": "^2.18.1",
+		"safe-eval": "^0.4.1",
+		"throng": "^4.0.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "node src/server.js"
+	},
+	"author": "Tugkan Cengiz",
+	"license": "ISC"
+}
